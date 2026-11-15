@@ -1,0 +1,15 @@
+[project]
+name = "snackbot"
+version = "0.1.0"
+description = "Snack counter refill automation: lifecycle, buyer selection and budget check, with simulated chat and HR systems"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["snackbot"]
